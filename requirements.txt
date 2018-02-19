@@ -2,6 +2,7 @@ Cython==0.27.3
 ipython==6.2.1
 pyOpenSSL==17.5.0
 blinker==1.4
+com==1.0.0
 cryptography==2.1.4
 ed25519ll==0.6
 protobuf==3.5.1
