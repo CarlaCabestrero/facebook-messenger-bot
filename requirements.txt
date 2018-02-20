@@ -76,8 +76,6 @@ wincertstore==0.2
 wit==5.0.0
 yarg==0.1.9
 appdirs==1.4.3
-beautifulsoup4==4.5.3
-bs4==0.0.1
 click==6.7
 Flask==0.12
 fuzzywuzzy==0.15.0
