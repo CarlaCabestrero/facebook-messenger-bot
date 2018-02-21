@@ -31,6 +31,7 @@ def get_news_elements(categories):
 	news_items = news_client.get_news()
 	elements = []
 
+
 	for item in news_items:
 		element = {
 					'title': item['title'],
