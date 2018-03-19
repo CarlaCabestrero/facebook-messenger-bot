@@ -65,7 +65,7 @@ def respond(messaging_event, sender_id, recipient_id, jamala):
         for response_message, action in zip(response_messages, actions):
             if response_message == 'saludo':
                 if(action == 'adios'):
-                    bot.send_text_message(sender_id, 'Hasta la vista!')
+                    bot.send_text_message(sender_id, '¡Hasta la vista!')
                 else:
                     bot.send_text_message(sender_id, '¡Hola!')
 
@@ -74,10 +74,6 @@ def respond(messaging_event, sender_id, recipient_id, jamala):
             if response_message == 'quetal':
                 bot.send_text_message(sender_id, 'Yo estoy muy bien, ¿y tu?')
                 bot.send_text_message(jamala, action)
-
-
-            if response_message == 'message':
-                respond(categories['message'])
 
             if response_message == 'rodoso':
                 pass  
@@ -90,7 +86,7 @@ def respond(messaging_event, sender_id, recipient_id, jamala):
             if(response_message == 'deporte'):
                     bot.send_text_message(sender_id, 'Soy el mejor Karateka.')
                     bot.send_text_message(jamala, 'Left kick')
-                    
+
             if(response_message == 'peticion'):
                     bot.send_text_message(sender_id, '¡Claro!')
 

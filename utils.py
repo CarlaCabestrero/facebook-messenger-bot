@@ -45,7 +45,7 @@ def get_response_message(categories):
 def get_translated_action(categories):
 	actions = []
 	if categories['saludo'] != None:
-		actions.append(categories['orden'])
+		actions.append(categories['saludo'])
 
 	if categories['quetal'] != None:
 		actions.append('greet')
