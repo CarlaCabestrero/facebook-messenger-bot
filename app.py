@@ -69,7 +69,7 @@ def respond(messaging_event, sender_id, recipient_id, jamala):
                 else:
                     bot.send_text_message(sender_id, '¡Hola!')
 
-                bot.send_text_message(jamala, 'wave left hand')
+                bot.send_text_message(jamala, 'right hand wave')
 
             if response_message == 'quetal':
                 bot.send_text_message(sender_id, 'Yo estoy muy bien, ¿y tu?')
@@ -85,7 +85,7 @@ def respond(messaging_event, sender_id, recipient_id, jamala):
 
             if(response_message == 'deporte'):
                     bot.send_text_message(sender_id, 'Soy el mejor Karateka.')
-                    bot.send_text_message(jamala, 'Left kick')
+                    bot.send_text_message(jamala, 'Block')
 
             if(response_message == 'peticion'):
                     bot.send_text_message(sender_id, '¡Claro!')
@@ -97,7 +97,7 @@ def respond(messaging_event, sender_id, recipient_id, jamala):
                     bot.send_text_message(jamala, 'sit')
                 if(action == 'baila'):
                     bot.send_text_message(sender_id, '¡Que alguien suba la música!')
-                    bot.send_text_message(jamala, 'dance')
+                    bot.send_text_message(jamala, 'B-boy')
                 if(action == 'arriba'):
                     bot.send_text_message(sender_id, '¡Arriba!')
                     bot.send_text_message(jamala, 'stand up')
